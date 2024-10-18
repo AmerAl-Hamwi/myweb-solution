@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Personal Portfolio Website</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="assets/custom/css/flexslider.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="assets/custom/css/parallax-slider.css" type="text/css">
+	<link rel="stylesheet" href="assets/font-awesome-4.0.3/css/font-awesome.min.css" type="text/css">
+
+	<!-- Custom styles for this template -->
+
+	<link href="assets/custom/css/business-plate.css" rel="stylesheet">
+	<link rel="shortcut icon" href="assets/custom/ico/favicon.ico">
+
+	<style>
+		.section {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 80px;
+		}
+
+		.about {
+			flex: 1;
+			padding-right: 20px;
+		}
+
+		.about h2 {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+
+		.about p {
+			font-size: 16px;
+			line-height: 1.5;
+			text-align: justify;
+		}
+
+		.photo {
+			flex: 1;
+		}
+
+		.photo img {
+			max-width: 73%;
+			height: auto;
+			border-radius: 50%;
+			margin-left: 110px;
+		}
+
+		.read-more-btn {
+			background-color: #302929;
+			color: orange;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		.col-md-4 ul {
+			list-style-type: none;
+		}
+	</style>
+</head>
+<!-- NAVBAR
+================================================== -->
+
+<body>
+	<!-- topHeaderSection -->
+	<div class="topHeaderSection">
+		<div class="header">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="assets/custom/img/logo.png"
+							alt="My web solution" /></a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+
+	<!-- bannerSection -->
+	<div class="bannerSection">
+		<div class="slider-inner">
+			<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
+					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in
+							use</i></p>
+					<div class="da-img"><img src="assets/custom/img/Responsive-Website-Design-Devices.png" alt="" />
+					</div>
+				</div>
+
+				<div class="da-slide">
+					<h2><i>Clean</i> <br> <i>Responsive </i> <br> <i>HTML5 & CSS3</i></h2>
+					<p><i>Professional look</i> <br> <i>Compitable in different device</i> <br> <i>Mordern technology in
+							use</i></p>
+					<div class="da-img"><img src="assets/custom/img/bootstrap-mobile-template.png" alt="" /></div>
+				</div>
+
+
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div><!--/da-slider-->
+		</div><!--/slider-->
+		<!--=== End Slider ===-->
+
+
+	</div>
+
+	<div class="section">
+		<div class="about">
+			<h2>About Me</h2>
+			<p>Hello, I'm Marah Farroukh. I'm a passionate programmer with a keen interest in web development and software
+				engineering. I find joy in transforming innovative concepts into functional and elegant solutions. My
+				journey began with HTML, CSS, and JavaScript, and I've since expanded my skills to encompass various web
+				frameworks. Through hands-on experience and projects, I've honed my ability to craft user-friendly and
+				visually captivating websites that deliver seamless and engaging user experiences. Whether it's
+				responsive design, dynamic user interfaces, or efficient backend systems, I thrive on bringing ideas to
+				life in the digital realm. My dedication to continuous learning drives me to explore new technologies
+				and stay at the forefront of industry trends. As I continue on this exciting path, I am excited to
+				collaborate, learn, and contribute to the ever-evolving landscape of technology and design.
+			</p>
+			<a href="about.html"><button class="read-more-btn">Read
+					More</button></a>
+		</div>
+		<div class="photo">
+			<img src="assets/custom/img/WhatsApp Image 2024-10-17 at 15.08.45_42c8b261.jpg" alt="Your Photo">
+		</div>
+	</div>
+
+	<!-- bodySection -->
+	<div class="serviceBlock">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="clearfix">
+						<i class="fa fa-compress"></i>
+						<div class="desc">
+							<h4>Fully Responsive</h4>
+							<p>I specialize in creating fully responsive websites that look great on all devices, from
+								smartphones to desktops.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="clearfix">
+						<i class="fa fa-code"></i>
+						<div class="desc">
+							<h4>HTML5 + CSS3</h4>
+							<p>Proficient in HTML5 and CSS3, I use these technologies to build modern and visually
+								appealing web interfaces.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="clearfix">
+						<i class="fa fa-thumbs-up"></i>
+						<div class="desc">
+							<h4>Launch Ready</h4>
+							<p>I ensure that my projects are launch-ready, meeting all the necessary criteria for a
+								successful launch.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="clearfix">
+						<i class="fa fa-desktop"></i>
+						<div class="desc">
+							<h4>User-Centric Design</h4>
+							<p>I prioritize user-centric design, creating interfaces that provide an exceptional user
+								experience.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="clearfix">
+						<i class="fa fa-html5"></i>
+						<div class="desc">
+							<h4>Web Development</h4>
+							<p>Web development is my passion, and I enjoy solving complex problems through code.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="clearfix">
+						<i class="fa fa-css3"></i>
+						<div class="desc">
+							<h4>Optimized CSS</h4>
+							<p>I'm skilled in writing efficient and optimized CSS code for improved website performance.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+
+		</div>
+	</div>
+
+	<hr>
+
+
+	<div class="bodySection" style="display:none">
+		<div class="container">
+			<div class="ourServices">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="cntr">
+							<img src="assets/custom/img/Office.png" class="img-circle" title="project one">
+							<h3><a href="#">Responsive Design</a></h3>
+						</div>
+						<p>
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+							voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+							cupiditate non provident
+							<br><br><a href="#">more details</a>
+						</p>
+					</div>
+					<div class="col-md-3">
+						<div class="cntr">
+							<img src="assets/custom/img/Office.png" class="img-circle" title="project one">
+							<h3><a href="#">CSS & HTML5</a></h3>
+						</div>
+						<p>
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+							voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+							cupiditate non provident
+							<br><br><a href="#">more details</a>
+						</p>
+					</div>
+					<div class="col-md-3">
+						<div class="cntr">
+							<img src="assets/custom/img/Office.png" class="img-circle" title="project one">
+							<h3><a href="#">Clean</a></h3>
+						</div>
+						<p>
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+							voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+							cupiditate non provident
+							<br><br><a href="#">more details</a>
+						</p>
+					</div>
+					<div class="col-md-3">
+						<div class="cntr">
+							<img src="assets/custom/img/Office.png" class="img-circle" title="project one">
+							<h3><a href="#">SEO Frendly</a></h3>
+						</div>
+						<p>
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+							voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+							cupiditate non provident
+							<br><br><a href="#">more details</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="testimonials">
+		<div class="container">
+			<blockquote class="">
+				<p>"Working with Marah Farroukh was an absolute pleasure. Their dedication to crafting exceptional web
+					solutions is evident in every project they undertake. We were consistently impressed by their
+					attention to detail and commitment to creating user-friendly websites. Their ability to turn
+					creative ideas into functional and elegant solutions is truly remarkable. We highly recommend Marah Farroukh for any web development project."</p>
+				<small>- Rob & Kelly</small>
+			</blockquote>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3 class="title">Why Choose Us</h3>
+				<p>
+					At Marah Farroukh Company, we have a clear commitment to excellence and client satisfaction. Here are
+					some compelling reasons to choose us as your partner for your next project:
+				</p>
+				<ul>
+					<li><i class="fa fa-check"></i> Expert Team: Our team comprises highly skilled and experienced
+						professionals dedicated to delivering top-notch solutions.</li>
+					<li><i class="fa fa-check"></i> Quality Assurance: We prioritize quality at every stage of the
+						project, ensuring your expectations are exceeded.</li>
+					<li><i class="fa fa-check"></i> Innovative Solutions: We embrace creativity and innovation to
+						provide unique and effective solutions for your needs.</li>
+					<li><i class="fa fa-check"></i> Client-Centric Approach: Your satisfaction is our priority. We
+						listen to your needs and work closely with you to achieve your goals.</li>
+				</ul>
+			</div>
+			<!-- Inside the "Latest Projects" section -->
+			<div class="media">
+				<a class="pull-left" href="#">
+					<img src="assets/custom/img/project1.jpg" class="projectImg" title="Project One">
+				</a>
+				<div class="media-body">
+					<h4 class="media-heading"><a href="#">Project One</a></h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, ipsum eget vestibulum
+						tincidunt, justo justo eleifend purus.
+					</p>
+					<a class="pull-right" href="about.html">More Details</a>
+				</div>
+			</div>
+
+			<div class="media">
+				<a class="pull-left" href="#">
+					<img src="assets/custom/img/project2.jpg" class="projectImg" title="Project Two">
+				</a>
+				<div class="media-body">
+					<h4 class="media-heading"><a href="#">Project Two</a></h4>
+					<p>
+						Nulla facilisi. Duis vehicula nisl ut augue convallis, sit amet maximus arcu consequat. Maecenas
+						vel consectetur lectus.
+					</p>
+					<a class="pull-right" href="about.html">More Details</a>
+				</div>
+			</div>
+
+			<div class="media">
+				<a class="pull-left" href="#">
+					<img src="assets/custom/img/project1.jpg" class="projectImg" title="Project Three">
+				</a>
+				<div class="media-body">
+					<h4 class="media-heading"><a href="#">Project Three</a></h4>
+					<p>
+						Vestibulum sodales odio id libero vehicula, id viverra velit accumsan. Proin scelerisque semper
+						tortor, a aliquam ligula.
+					</p>
+					<a class="pull-right" href="about.html">More Details</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- footerBottomSection -->
+	<div class="footerBottomSection">
+		<div class="container">
+			&copy; 2014, Allright reserved. <a href="#">Terms and Condition</a> | <a href="#">Privacy Policy</a>
+			<div class="pull-right"> <a href="index.html"><img src="assets/custom/img/logo1.png"
+						alt="My web solution" /></a></div>
+		</div>
+	</div>
+
+	<!-- JS Global Compulsory -->
+	<script type="text/javascript" src="assets/custom/js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="assets/custom/js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- JS Implementing Plugins -->
+	<script type="text/javascript" src="assets/custom/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="assets/custom/js/modernizr.js"></script>
+	<script type="text/javascript" src="assets/custom/js/jquery.cslider.js"></script>
+	<script type="text/javascript" src="assets/custom/js/back-to-top.js"></script>
+	<script type="text/javascript" src="assets/custom/js/jquery.sticky.js"></script>
+
+	<!-- JS Page Level -->
+	<script type="text/javascript" src="assets/custom/js/app.js"></script>
+	<script type="text/javascript" src="assets/custom/js/index.js"></script>
+
+
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+			App.init();
+			App.initSliders();
+			Index.initParallaxSlider();
+		});
+	</script>
+
+
+</body>
+
+</html>
